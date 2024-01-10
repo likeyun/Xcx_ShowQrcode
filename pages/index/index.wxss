@@ -1,0 +1,7 @@
+.content {
+	width: 80%;
+	margin: 50px auto;
+	background: #fff;
+	padding: 20px;
+	font-size: 15px;
+}

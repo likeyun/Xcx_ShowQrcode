@@ -1,0 +1,2 @@
+<view class="content">请登录微信小程序后台，点击右上角的工具->生成小程序码，生成的路径是：pages/showQrcode/showQrcode?url=二维码图片地址，如需自定义标题和显示摘要，这是完整的路径：pages/showQrcode/showQrcode?url=二维码图片地址&title=标题&desc=摘要</view>
+<button bind:tap="showQrcode">查看演示</button>

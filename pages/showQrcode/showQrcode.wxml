@@ -1,0 +1,6 @@
+<view class="container">
+	<view class="desc" wx:if="{{descShow}}">{{desc}}</view>
+	<view wx:else style="height: 30px;"></view>
+	<image mode="widthFix" show-menu-by-longpress="{{true}}" src="{{QrcodeUrl}}" wx:if="{{getShowQrcode}}"></image>
+	<view wx:else class="error">{{errorInfo}}</view>
+</view>
